@@ -60,14 +60,47 @@ a.active, a:hover{
     color:white;
 }
  #Vission{
+     height:500px;
     color:black;
     padding-bottom: 30px;
     text-align: center;
     padding-top: 30px;
     font-family: 'Noto Serif', serif;
     font-size: 20px;
+
+}
+#Vission img{
+    float: right; 
+}
+#Vission h1{
+    padding-bottom: 40px;
+
+}
+#mission{
+    color:black;
+    font-size: 20px;
+    font-family:'Noto Serif', serif;
+    text-align: center;
+    /* background-image: url("https://pulitzercenter.org/sites/default/files/styles/node_images_768x510/public/10-09-18/photo_3.jpg?itok=3skIncAC"); */
+    height:500px;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-color: green;
+    padding-top: 25px;
+    /* padding-bottom: 25px; */
+}
+#mission h1{
+    padding-bottom: 45px;
+}
+img{
+    float: left;
+    border:1px solid;
+}
+P{
+    padding-bottom: 25px;
 }
 #Contact{
+    height: 600px;
     background-color: cadetblue;
     /* background-image: url('https://soworldwide.org/wp-content/uploads/2019/01/Commitment-to-56.png');  */
     /* background-repeat: no-repeat; */
@@ -122,3 +155,19 @@ textarea.contact-form-text{
 .contact-form-btn:hover{
     background:#2980b9;
 }
+#information{
+    float:left;
+    padding-left:200px ;
+}
+#form{
+    float:right;
+    padding-right:200px ;
+}
+#information ul li{
+    padding: 25px;
+}
+#information img{
+/* border-radius: 50%; */
+border: 0px;
+}
+
